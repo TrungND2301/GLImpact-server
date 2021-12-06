@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "617ff9cd79c12c6a637e512c"
+  },
+  "username": "TrungND",
+  "password": "123456",
+  "name": "Nguyen Duc Trung",
+  "phone": "0969532301",
+  "address": "Hanoi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617ff9fa79c12c6a637e512e"
+  },
+  "username": "ThangLQ",
+  "password": "123456",
+  "name": "Nguyen Quang Thang",
+  "phone": "0974825478",
+  "address": "Thaibinh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617ffa1f79c12c6a637e5130"
+  },
+  "username": "ChauBB",
+  "password": "123456",
+  "name": "Bui Bao Chau",
+  "phone": "0985185421",
+  "address": "Thanhhoa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617ffa3279c12c6a637e5132"
+  },
+  "username": "HoaTK",
+  "password": "123456",
+  "name": "Truong Khanh Hoa",
+  "phone": "09558155845",
+  "address": "Haiduong",
+  "__v": 0
+}]

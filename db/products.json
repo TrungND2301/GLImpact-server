@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6177630d26b3b3fb0a95fd4a"
+  },
+  "name": "May anh",
+  "brand": "Sony",
+  "price": "100",
+  "onstock": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177632f26b3b3fb0a95fd4c"
+  },
+  "name": "Nuoc hoa",
+  "brand": "Channel",
+  "price": "50",
+  "onstock": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177633d26b3b3fb0a95fd4e"
+  },
+  "name": "Dien thoai",
+  "brand": "Iphone",
+  "price": "999",
+  "onstock": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177635226b3b3fb0a95fd50"
+  },
+  "name": "Guitar",
+  "brand": "Yamaha",
+  "price": "500",
+  "onstock": true,
+  "__v": 0
+}]

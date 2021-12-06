@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "617ff3c8989858e9f2c7d576"
+  },
+  "name": "TrungND",
+  "email": "trung.nguyenduc2@gameloft.com",
+  "password": "$2b$10$2DQcseL64piYLvyxwKYPKOemU/Ud5zCuoNx51nSRbiGySRO8n/OKi",
+  "passwordConfirm": "$2b$10$2DQcseL64piYLvyxwKYPKOemU/Ud5zCuoNx51nSRbiGySRO8n/OKi",
+  "isAdmin": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617ff3f4989858e9f2c7d578"
+  },
+  "name": "QuanTM",
+  "email": "quan.tranmanh@gameloft.com",
+  "password": "$2b$10$6/CsEWp3guwBYhNOVPEdEevHD8hMoVgdcALtaaB/xac/UCD0MHhGK",
+  "passwordConfirm": "$2b$10$6/CsEWp3guwBYhNOVPEdEevHD8hMoVgdcALtaaB/xac/UCD0MHhGK",
+  "isAdmin": false,
+  "__v": 0
+}]

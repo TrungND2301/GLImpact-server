@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "617767da5dde7379ba06dd9a"
+  },
+  "username": "TrungND",
+  "products": [
+    {
+      "name": "May anh",
+      "quantity": 1,
+      "_id": {
+        "$oid": "617767da5dde7379ba06dd9b"
+      }
+    }
+  ],
+  "payment": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177680a5dde7379ba06dd9d"
+  },
+  "username": "ThangLQ",
+  "products": [
+    {
+      "name": "Dien thoai",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6177680a5dde7379ba06dd9e"
+      }
+    }
+  ],
+  "payment": 999,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177681e5dde7379ba06dda0"
+  },
+  "username": "ChauBB",
+  "products": [
+    {
+      "name": "Guitar",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6177681e5dde7379ba06dda1"
+      }
+    }
+  ],
+  "payment": 500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177682d5dde7379ba06dda3"
+  },
+  "username": "HoaTK",
+  "products": [
+    {
+      "name": "Nuoc hoa",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6177682d5dde7379ba06dda4"
+      }
+    }
+  ],
+  "payment": 50,
+  "__v": 0
+}]

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "617765222e951addafb444eb"
+  },
+  "username": "TrungND",
+  "history": [
+    "guitar",
+    "sach",
+    "dienthoai"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177653b2e951addafb444ed"
+  },
+  "username": "ThangLQ",
+  "history": [
+    "gopro",
+    "mayanh",
+    "dienthoai"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617765632e951addafb444ef"
+  },
+  "username": "ChauBB",
+  "history": [
+    "sach",
+    "food",
+    "travel"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617765732e951addafb444f1"
+  },
+  "username": "HoaTK",
+  "history": [
+    "ta",
+    "bim",
+    "sua"
+  ],
+  "__v": 0
+}]
