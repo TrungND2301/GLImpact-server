@@ -1,27 +1,27 @@
-const users = require("../models/UserModel");
-const bcrypt = require("bcrypt");
+const ldapClient = require("./ldap-communication");
+const jwt = require("jsonwebtoken");
+const config = require("config");
 
 exports.login = async (req, res) => {
   try {
     console.log("Login");
 
-    let user = await users.findOne({ email: req.body.email });
-    if (!user) {
-      return res.status(400).send("Wrong email or password!");
-    }
-
-    const validPassword = await bcrypt.compare(
-      req.body.password,
-      user.password
+    let isAuthenticated = await ldapClient.authUser(
+      req.body.email,
+      req.body.password
     );
-    if (!validPassword) {
-      return res.status(400).send("Wrong password!");
-    }
 
-    const token = user.generateAuthToken();
-    console.log(token);
-    res.send(token);
+    const token = generateAuthToken(req.body.email, req.body.password);
+    res.status(200).send(token);
   } catch (error) {
-    console.log(error);
+    res.status(400).send("Wrong email or password!");
   }
 };
+
+function generateAuthToken(email, password) {
+  const token = jwt.sign(
+    { email: email, password: password },
+    config.get("jwtPrivateKey")
+  );
+  return token;
+}
